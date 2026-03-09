@@ -1,0 +1,76 @@
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Juhyung Lee</title>
+    <meta name="description" content="About Juhyung Lee" />
+    <style>
+      :root {
+        --bg: #f7f8fc;
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #4b5563;
+        --accent: #2563eb;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+      }
+
+      .container {
+        width: min(850px, 100%);
+        background: var(--card);
+        border-radius: 16px;
+        box-shadow: 0 15px 40px rgba(2, 6, 23, 0.08);
+        padding: 2rem;
+      }
+
+      h1 {
+        margin: 0 0 1rem;
+        font-size: clamp(2rem, 4vw, 2.7rem);
+      }
+
+      p {
+        line-height: 1.75;
+        font-size: 1.05rem;
+        color: var(--muted);
+      }
+
+      .lead {
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>About</h1>
+      <p class="lead">Hello all 👋 Just a beginning of all that is going to come.</p>
+      <p>Hoping it'd be worth it.</p>
+      <p>
+        Replace this text with your full About content from WordPress.
+        You can also add links (for example:
+        <a href="https://github.com/your-username">GitHub</a>).
+      </p>
+    </main>
+  </body>
+</html>
+```
